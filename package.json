@@ -44,6 +44,9 @@
 		},
 		"scripts": {
 			"start": "node_modules/.bin/gulp",
-			"dev": "node_modules/.bin/gulp dev"
+			"dev": "node_modules/.bin/gulp dev",
+			"css": "node_modules/.bin/gulp dev css",
+			"js": "node_modules/.bin/gulp dev js",
+			"vendor": "node_modules/.bin/gulp dev vendor"
 		}
 }

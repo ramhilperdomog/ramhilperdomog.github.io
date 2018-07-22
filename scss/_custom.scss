@@ -1,0 +1,31 @@
+.bg-white {
+  background-color: $white !important;
+}
+
+.text-white {
+	color: $white;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:not(.active) {
+	color: $primary;
+}
+
+.border-rounded {
+	border-width: 3px;
+	border-style: solid;
+	border-color: $white;
+	border-radius: 50%;
+}
+
+a.text-primary:focus,
+a.text-primary:hover {
+		color: darken($primary, 10%) !important;
+		text-decoration: none;
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+  background-color: $primary !important;
+}
