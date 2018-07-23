@@ -12,6 +12,7 @@ h6 {
   font-family: 'Montserrat';
 }
 
+hr.star-green,
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -25,6 +26,7 @@ hr.star-dark {
   margin-right: auto;
 }
 
+hr.star-green:after,
 hr.star-light:after,
 hr.star-dark:after {
   position: relative;
@@ -52,6 +54,15 @@ hr.star-dark {
 hr.star-dark:after {
   color: #fff;
   background-color: #373D4E;
+}
+
+hr.star-green {
+  border-color: #18BC9C;
+}
+
+hr.star-green:after {
+  color: #18BC9C;
+  background-color: #fff;
 }
 
 section {
