@@ -29,3 +29,37 @@ button.bg-primary:focus,
 button.bg-primary:hover {
   background-color: $primary !important;
 }
+
+#displayArea > embed,
+#displayArea > span {
+	cursor: crosshair;
+	border-width: 3px;
+	border-style: solid;
+	border-color: $secondary;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);	
+}
+
+$pink: pink;
+
+.gallery-item {
+	cursor: pointer;
+	background: $secondary;
+	color: $white;
+	border-radius: 5px;
+	width: 100%; 
+	height: 120px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transition: all 0.1s ease-in;
+	&:hover {
+		background: $primary;
+	}
+}
+
+.gallery-item-body {
+	overflow: auto;
+	display: block;
+	word-break: break-word;
+	font-weight: bold;
+	font-size: 0.8em;
+}
