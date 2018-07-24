@@ -6,6 +6,10 @@
 	color: $white;
 }
 
+a.portfolio-item {
+	text-decoration: none;
+}
+
 #mainNav .navbar-nav li.nav-item a.nav-link:not(.active) {
 	color: $primary;
 }
@@ -40,8 +44,6 @@ button.bg-primary:hover {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);	
 }
 
-$pink: pink;
-
 .gallery-item {
 	cursor: pointer;
 	background: $secondary;
@@ -62,4 +64,27 @@ $pink: pink;
 	word-break: break-word;
 	font-weight: bold;
 	font-size: 0.8em;
+}
+
+.project-item {
+	background: $white;
+	color: $secondary;
+	border-radius: 5px;
+	width: 100%; 
+	height: 175px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transition: all 0.1s ease-in;
+	&:hover {
+		background: $primary;
+	}
+}
+
+.project-item-body {
+	text-transform: uppercase;
+	text-align: center;
+	overflow: auto;
+	display: block;
+	word-break: break-word;
+	font-weight: bold;
+	font-size: 1.5em;
 }

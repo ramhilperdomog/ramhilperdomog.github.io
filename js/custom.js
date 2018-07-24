@@ -37,10 +37,17 @@ function displayImage() {
 	displayArea.empty()
 	displayArea.append(elToDisplay)
 	displayArea.append($('<p class="text-center"> Coloque el mouse sobre la imagen para ampliar </p>'))
-
 	elToDisplay
 		.wrap('<span style="display:inline-block"></span>')
 		.css('display', 'block')
 		.parent()
-		.zoom();
+		.zoom()
+}
+
+function zoomImage() {
+	$(event.currentTarget)
+		.wrap('<span style="display:inline-block"></span>')
+		.css('display', 'block')
+		.parent()
+		.zoom()
 }
