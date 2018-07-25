@@ -28,11 +28,6 @@ function displayPDF() {
 	elToDisplay.contextmenu(function (e) {
 		e.preventDefault();
 	});
-	// var a = elToDisplay.get()[0]
-	// var b = (a.contentWindow || a.contentDocument);
-	// console.log(a)
-	// console.log(b.document)
-	console.log(document.querySelector('#embed').contentWindow || document.querySelector('#embed').contentDocument);
 }
 
 function displayImage() {
