@@ -71,28 +71,63 @@ var languageMappings = {
 		'en': 'PROCESS FLOW CHART: CREATION OF BUDGET EXECUTION REPORT - SUB PROCESS (SYSTEM) ',
 		'es': 'FLUJOGRAMA: ELABORACIÓN INFORME DE EJECUCION PRESUPUESTAL - SUBPROCESO SISTEMA'
 	},
-	'p2_1': {
-		'en': 'CLAIMS PROCESS <br/> MOCKUPS',
-		'es': 'PROCESO QUEJAS Y RECLAMACIONES <br/> MOCKUPS'
-	},
 	'portfolio2Header': {
-		'en': 'Flight Tracker APP</br>(Claims)',
-		'es': 'APP Tracking Vuelos <br/>(Quejas y Reclamaciones)'
+    'en': 'FLIGHT TRACKER APP</br>(CLAIMS)',
+		'es': 'APP TRACKING VUELOS <br/>(QUEJAS Y RECLAMACIONES)'
 	},
 	'portfolio2Content': {
-		'en': 'Flight Tracker APP</br>(Claims)',
-		'es': 'APP Tracking Vuelos <br/>(Quejas y Reclamaciones)'
-	},
+		'en': 'FLIGHT TRACKER APP</br>(CLAIMS)',
+		'es': 'APP TRACKING VUELOS <br/>(QUEJAS Y RECLAMACIONES)'
+  },
+  'p2_1': {
+    'en': 'CLAIMS PROCESS <br/> MOCKUPS',
+    'es': 'PROCESO QUEJAS Y RECLAMACIONES <br/> MOCKUPS'
+  },
 	'portfolio3Header': {
-		'en': 'Medical Audit APP </br>(Medical Claims)',
+		'en': 'MEDICAL AUDIT APP </br>(MEDICAL CLAIMS)',
 		'es': 'APP Auditoría <br/> (Reclamaciones Médicas)'
-	},
+  },
+  'p3_1': {
+    'en': 'MEDICAL AUDIT <br/> SCREENS',
+    'es': 'AUDITORIA MÉDICA <br/> PANTALLAS'
+  },
+  'p3_2': {
+    'en': 'PROCESS FLOWCHART: <br/> MEDICAL AUDIT',
+    'es': 'AUDITORIA MÉDICA <br/> FLUJO PROPUESTO'
+  },
+  'p3_3': {
+    'en': 'USER TEST SCENARIOS',
+    'es': 'ESCENARIOS PRUEBAS USUARIO'
+  },
 	'portfolio4Header': {
 		'en': 'ERP System',
 		'es': 'Sistema ERP'
-	},
+  },
+  'p4_1': {
+    'en': 'PROCESS FLOW CHART',
+    'es': 'PROCESOS'
+  },
+  'p4_2': {
+    'en': 'MOCKUP <br/> USERS',
+    'es': 'PANTALLA <br/> USUARIOS'
+  },
+  'p4_3': {
+    'en': 'MOCKUP <br/> CLIENTS 1',
+    'es': 'PANTALLA <br/> CLIENTES 1'
+  },
+  'p4_4': {
+    'en': 'MOCKUP <br/> CLIENTS 2',
+    'es': 'PANTALLA <br/> CLIENTES 2'
+  },
+  'p4_5': {
+    'en': 'MOCKUP <br/> ADD PRODUCT TO INVENTORY',
+    'es': 'PANTALLA <br/> INVENTARIO AGREGAR PRODUCTO'
+  },
+  'p4_6': {
+    'en': 'USE CASE <br/> ROLE CONFIGURATION',
+    'es': 'CASO DE USO <br/> CONFIGURACION DE UN ROL'
+  },
 }
-
 var currentLanguage = 'es'
 
 function embed(label, value) {
