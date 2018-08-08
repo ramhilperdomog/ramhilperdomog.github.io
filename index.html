@@ -44,19 +44,23 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-left">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#page-top">Inicio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#page-top" data-translate="home">Inicio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portafolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio" data-translate="portfolio">Portafolio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Acerca de mi</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" data-translate="aboutMe">Acerca de mi</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact" onclick="forceActive()">Contáctame</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact" onclick="forceActive()" data-translate="contactMe">Contáctame</a>
             </li>
           </ul>
         </div>
+
+				<a class="navbar-brand js-scroll-trigger text-lowercase text-primary" href="#" onclick="onLanguageChange()" data-toggle="tooltip" data-placement="top" title="Switch to English!">
+					<i class="fa fa-language"></i>
+				</a>
 
         <a class="navbar-brand js-scroll-trigger text-lowercase text-primary" href="#contact" style="font-size: 0.7em">
           <i class="fa fa-envelope"></i> ramhilperdomog@gmail.com
@@ -74,14 +78,14 @@
         <img class="img-fluid mb-5 d-block mx-auto border-rounded" src="img/profile.png" alt="">
         <h1 class="text-uppercase mb-0" style="font-size: 3.5em;">Ramhil Perdomo</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Analista de Procesos - Analista de Negocios</h2>
+        <h2 class="font-weight-light mb-0" data-translate="jobTitle">Analista de Procesos - Analista de Negocios</h2>
       </div>
     </header>
 
     <!-- Portfolio Grid Section -->
     <section class="portfolio bg-secondary" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white mb-0">Portafolio</h2>
+        <h2 class="text-center text-uppercase text-white mb-0" data-translate="portfolio">Portafolio</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-3">
@@ -93,7 +97,7 @@
 							</div>
 							<img src="img/portfolio1.png" alt="" class="img-fluid"/>
             </a>
-						<p class="text-center text-white">Gestión Presupuestal <br/> (BPM)</p>
+						<p class="text-center text-white" data-translate="portfolio1Header">Gestión Presupuestal <br/> (BPM)</p>
           </div>
           <div class="col-md-6 col-lg-3">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
@@ -104,7 +108,7 @@
 							</div>
 							<img src="img/portfolio2.png" alt="" class="img-fluid"/>
             </a>
-						<p class="text-center text-white">APP Tracking Vuelos <br/>(Quejas y Reclamaciones)</p>
+						<p class="text-center text-white" data-translate="portfolio2Header">APP Tracking Vuelos <br/>(Quejas y Reclamaciones)</p>
           </div>
           <div class="col-md-6 col-lg-3">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
@@ -115,7 +119,7 @@
               </div>
 							<img src="img/portfolio3.png" alt="" class="img-fluid"/>
             </a>
-						<p class="text-center text-white">APP Auditoría <br/> (Reclamaciones Médicas)</p>
+						<p class="text-center text-white" data-translate="portfolio3Header">APP Auditoría <br/> (Reclamaciones Médicas)</p>
 					</div>
 					<div class="col-md-6 col-lg-3">
 						<a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
@@ -126,7 +130,7 @@
 							</div>
 							<img src="img/portfolio4.png" alt="" class="img-fluid">
 						</a>
-						<p class="text-center text-white">	Sistema ERP </p>
+						<p class="text-center text-white" data-translate="portfolio4Header">	Sistema ERP </p>
 					</div>
         </div>
       </div>
@@ -135,11 +139,11 @@
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">Acerca de mí</h2>
+        <h2 class="text-center text-uppercase text-white" data-translate="aboutMe">Acerca de mí</h2>
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-6 offset-lg-3 text-center">
-            <p class="lead">Analista de procesos y negocios con 3 años de experiencia. Apasionada en identificar, analizar, describir y optimizar procesos, y segura que puedo encajar en su organización con nuevas ideas que desarrollen mutuo aprendizaje.</p>
+            <p class="lead" data-translate="aboutMeContent">Analista de procesos y negocios con 3 años de experiencia. Apasionada en identificar, analizar, describir y optimizar procesos, y segura que puedo encajar en su organización con nuevas ideas que desarrollen mutuo aprendizaje.</p>
           </div>
         </div>
       </div>
@@ -148,7 +152,7 @@
     <!-- Contact Section -->
     <section id="contact" class="bg-secondary">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white mb-0">Contáctame!</h2>
+        <h2 class="text-center text-uppercase text-white mb-0"><span data-translate="contactMe">Contáctame</span>!</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -202,7 +206,7 @@
 					<div class="row">
 						
 						<div class="col mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">Gestión Presupuestal (BPM)</h2>
+							<h2 class="text-secondary text-uppercase mb-0" data-translate="portfolio1Content">Gestión Presupuestal (BPM)</h2>
 							<hr class="star-green mb-5">
 						</div>
 
@@ -218,7 +222,7 @@
 									<div class="gallery-item">
 										 	<div class="gallery-item-body p-2 pt-4">
 												<i class="fa fa-book"></i>
-												<br/> CASO DE USO
+												<br/> <span data-translate="p1_1">CASO DE USO</span>
 											</div>	
 									</div>
 								</div>
@@ -227,7 +231,7 @@
 									<div class="gallery-item">
 										<div class="gallery-item-body p-2 pt-4">
 											<i class="fa fa-map"></i>
-											<br/> MAPA DE PROCESOS
+											<br/> <span data-translate="p1_2">MAPA DE PROCESOS</span>
 										</div>
 									</div>
 								</div>
@@ -236,7 +240,7 @@
 									<div class="gallery-item">
 										<div class="gallery-item-body p-2 pt-4">
 											<i class="fa fa-project-diagram"></i>
-											<br/> CRONOGRAMA: SEGUIMIENTO Y EVALUACIÓN PRESUPUESTAL
+											<br/> <span data-translate="p1_3">CRONOGRAMA: SEGUIMIENTO Y EVALUACIÓN PRESUPUESTAL</span>
 										</div>
 									</div>
 								</div>
@@ -245,8 +249,7 @@
 									<div class="gallery-item">
 										<div class="gallery-item-body p-2 pt-4">
 											<i class="fa fa-project-diagram"></i>
-											<!--  -->
-											<br/> FLUJOGRAMA: ELABORACION INFORME PROYECTOS DE INVERSIÓN
+											<br/> <span data-translate="p1_4">FLUJOGRAMA: ELABORACION INFORME PROYECTOS DE INVERSIÓN</span>
 										</div>
 									</div>
 								</div>
@@ -255,7 +258,7 @@
 										<div class="gallery-item">
 											<div class="gallery-item-body p-2 pt-4">
 												<i class="fa fa-project-diagram"></i>
-												<br/> FLUJOGRAMA: PROGRAMACIÓN, SEGUIMIENTO Y EVALUACIÓN PRESUPUESTAL
+												<br/> <span data-translate="p1_5">FLUJOGRAMA: PROGRAMACIÓN, SEGUIMIENTO Y EVALUACIÓN PRESUPUESTAL</span>
 											</div>
 										</div>
 								</div>
@@ -264,7 +267,7 @@
 										<div class="gallery-item">
 											<div class="gallery-item-body p-2 pt-4">
 												<i class="fa fa-project-diagram"></i>
-												<br/> FLUJOGRAMA: FORMULACIÓN, EJECUCIÓN Y SEGUIMIENTO PRESUPUESTAL
+												<br/> <span data-translate="p1_6">FLUJOGRAMA: FORMULACIÓN, EJECUCIÓN Y SEGUIMIENTO PRESUPUESTAL</span>
 											</div>
 										</div>
 								</div>
@@ -273,7 +276,7 @@
 										<div class="gallery-item">
 											<div class="gallery-item-body p-2 pt-4">
 												<i class="fa fa-project-diagram"></i>
-												<br/> FLUJOGRAMA: ELABORACIÓN INFORME DE EJECUCION PRESUPUESTAL - NIVEL 1
+												<br/> <span data-translate="p1_7">FLUJOGRAMA: ELABORACIÓN INFORME DE EJECUCION PRESUPUESTAL - NIVEL 1</span>
 											</div>
 										</div>
 								</div>
@@ -282,7 +285,7 @@
 									<div class="gallery-item">
 										<div class="gallery-item-body p-2 pt-4">
 											<i class="fa fa-project-diagram"></i>
-											<br/> FLUJOGRAMA: ELABORACIÓN INFORME DE EJECUCION PRESUPUESTAL - NIVEL 2
+											<br/> <span data-translate="p1_8">FLUJOGRAMA: ELABORACIÓN INFORME DE EJECUCION PRESUPUESTAL - NIVEL 2</span>
 										</div>
 									</div>
 								</div>
@@ -291,7 +294,7 @@
 									<div class="gallery-item">
 										<div class="gallery-item-body p-2 pt-2">
 											<i class="fa fa-project-diagram"></i>
-											<br/> FLUJOGRAMA: ELABORACIÓN INFORME DE EJECUCION PRESUPUESTAL - SUBPROCESO SISTEMA
+											<br/> <span data-translate="p1_9">FLUJOGRAMA: ELABORACIÓN INFORME DE EJECUCION PRESUPUESTAL - SUBPROCESO SISTEMA</span>
 										</div>
 									</div>
 								</div>
@@ -320,7 +323,7 @@
 					<div class="row">
 				
 						<div class="col mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">App Tracking Vuelos <br>(Quejas y Reclamaciones)</h2>
+							<h2 class="text-secondary text-uppercase mb-0" data-translate="portfolio2Content">App Tracking Vuelos <br>(Quejas y Reclamaciones)</h2>
 							<hr class="star-green mb-5">
 						</div>
 				
@@ -336,7 +339,7 @@
 									<div class="gallery-item">
 										<div class="gallery-item-body p-2 pt-4">
 											<i class="fa fa-book"></i>
-											<br/> PROCESO QUEJAS Y RECLAMACIONES <br/> MOCKUPS
+											<br/> <span data-translate="p2_1">PROCESO QUEJAS Y RECLAMACIONES <br/> MOCKUPS</span>
 										</div>
 									</div>
 								</div>				
@@ -365,7 +368,7 @@
 					<div class="row">
 		
 						<div class="col mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
+							<h2 class="text-secondary text-uppercase mb-0" data-translate="portfolio3Header">
 								APP Auditoría
 								<br/> (Reclamaciones Médicas)
 							</h2>
@@ -435,7 +438,7 @@
 					<div class="row">
 		
 						<div class="col mx-auto">
-							<h2 class="text-secondary text-uppercase mb-0">
+							<h2 class="text-secondary text-uppercase mb-0" data-translate="portfolio4Header">
 								Sistema ERP
 							</h2>
 							<hr class="star-green mb-5">
