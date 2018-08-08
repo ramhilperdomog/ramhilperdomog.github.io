@@ -152,7 +152,7 @@ function image(label, value) {
 }
 
 function displayPDF() {
-	var data = $(event.currentTarget).data()
+	var data = $(event.currenttooltipButton).data()
 	var elToDisplay = embed(data.label, data.value);
 	var displayArea = $('#displayArea')
 	displayArea.empty()
@@ -227,10 +227,15 @@ for (i = 0; i < displayAreas.length; ++i) {
 
 
 currentLanguage = getURLPArams('lang') || 'es';
-toggleLanguage(currentLanguage)
+toggleLanguage(currentLanguage);
 
-$('[data-toggle="tooltip"]').tooltip()
+var tooltipButton = $('#languageToggler');
+var tooltipMessage = languageMappings['tooltipMessage'][currentLanguage]
+
+tooltipButton.tooltip('hide').attr('title', tooltipMessage).attr('data-original-title', tooltipMessage).tooltip('update').tooltip();
+
+$('[data-toggle="tooltip"]').tooltip();
 
 setTimeout(function () {
-  $('#languageToggler').tooltip('show')
+  tooltipButton.tooltip('show')
 }, 1300);
