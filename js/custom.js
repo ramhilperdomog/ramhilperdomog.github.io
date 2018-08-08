@@ -225,7 +225,12 @@ for (i = 0; i < displayAreas.length; ++i) {
 	$(displayArea).contextmenu(function (e) { return false; })
 }
 
-$('[data-toggle="tooltip"]').tooltip()
 
 currentLanguage = getURLPArams('lang') || 'es';
 toggleLanguage(currentLanguage)
+
+$('[data-toggle="tooltip"]').tooltip()
+
+setTimeout(function () {
+  $('#languageToggler').tooltip('show')
+}, 1300);
