@@ -152,7 +152,8 @@ function image(label, value) {
 }
 
 function displayPDF() {
-	var data = $(event.currenttooltipButton).data()
+  var data = $(event.currentTarget).data()
+  console.log(data);
 	var elToDisplay = embed(data.label, data.value);
 	var displayArea = $('#displayArea')
 	displayArea.empty()
