@@ -1,7 +1,7 @@
 var languageMappings = {
 	'tooltipMessage': {
-		'en': '¡Cambiar a Español!',
-		'es': 'Switch to English!'
+		'en': 'Cambiar a Español',
+		'es': 'Switch to English'
 	},
 	'home': {
 		'en': 'Home',
@@ -20,8 +20,8 @@ var languageMappings = {
 		'es': 'Contáctame'
 	},
 	'jobTitle': {
-		'en': 'Process Analyst - Business Analyst',
-		'es': 'Analista de Procesos - Analista de Negocios'
+		'en': 'Business/Process Analyst - Scrum Product Owner',
+		'es': 'Analista de Procesos/Negocios - Scrum Product Owner'
 	},
 	'aboutMeContent': {
 		'en': 'Process and business analyst with 5 years of experience. Passionate identifying, analyzing, describing and optimizing processes, and I\'m sure I can fit into your organization with new ideas that develop mutual learning.',
