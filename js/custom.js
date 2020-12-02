@@ -24,8 +24,8 @@ var languageMappings = {
 		'es': 'Analista de Procesos - Analista de Negocios'
 	},
 	'aboutMeContent': {
-		'en': 'Process and business analyst with 3 years of experience. Passionate identifying, analyzing, describing and optimizing processes, and I\'m sure I can fit into your organization with new ideas that develop mutual learning.',
-		'es': 'Analista de procesos y negocios con 3 años de experiencia. Apasionada en identificar, analizar, describir y optimizar procesos, y segura que puedo encajar en su organización con nuevas ideas que desarrollen mutuo aprendizaje.'
+		'en': 'Process and business analyst with 5 years of experience. Passionate identifying, analyzing, describing and optimizing processes, and I\'m sure I can fit into your organization with new ideas that develop mutual learning.',
+		'es': 'Analista de procesos y negocios con 5 años de experiencia. Apasionada en identificar, analizar, describir y optimizar procesos, y segura que puedo encajar en su organización con nuevas ideas que desarrollen mutuo aprendizaje.'
 	},
 	portfolio1Header: {
 		'en': 'Budget Management <br/> (BPM)',
